@@ -25,4 +25,6 @@ public class _01_basicLambda {
 
         calc.calculate(a, b);
     }
+
+
 }

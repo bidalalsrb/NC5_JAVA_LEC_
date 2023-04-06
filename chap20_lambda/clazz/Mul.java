@@ -1,2 +1,5 @@
-package chap20_lambda.clazz;public interface Mul {
+package chap20_lambda.clazz;
+@FunctionalInterface
+public interface Mul {
+    void multiply(int a);
 }

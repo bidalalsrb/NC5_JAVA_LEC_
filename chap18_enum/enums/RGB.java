@@ -6,7 +6,7 @@ public enum RGB {
     RED("red", 255, 0, 0) {
         public void makeWhite() {
 
-            String[] color = {"red", "gree릿n", "blue"};
+            String[] color = {"red", "green", "blue"};
             System.out.println(color[1] + "," + color[2] + "부족해");
         }
     },

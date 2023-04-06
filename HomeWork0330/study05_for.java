@@ -1,6 +1,5 @@
 package HomeWork0330;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class study05_for {
@@ -40,7 +39,21 @@ public class study05_for {
 //        for (int i = 9; i >= 0; i--) {
 //            System.out.println(input[i]);
 //        }
-        //7. 사용자가 입력한 두 정수의 최소공배수와 최대공약수를 출력하세요.
+//        7. 사용자가 입력한 두 정수의 최소공배수와 최대공약수를 출력하세요.
+
+        int a = sc.nextInt(); // 2
+        int b = sc.nextInt(); // 4
+
+        int minm = 0;
+        int maxm = 0;
+        for (int i = 1; i <= a && i <= b; ++i) {
+            if (a % 2 == 0 && b % 2 ==0){
+                minm = i;
+            }
+
+        }
+        System.out.println(minm);
+
         //8.중첩 for문으로 이용해서 다음과 같이 출력하세요.
         //
         //8-1. *

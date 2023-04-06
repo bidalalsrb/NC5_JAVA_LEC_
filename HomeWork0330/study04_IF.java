@@ -99,8 +99,8 @@ public class study04_IF {
 //         if (num1 < num2){
 //             System.out.println("두번쨰 수가 커");
 //         }
-        //9.사용자가 입력한 세 정수가 모두 짝수인 경우 "모두 짝수입니다." 모두 홀수인 경우 "모두 홀수입니다."
-        // 그 외의 경우 "짝수 : xxx개, 홀수 : xxx개 입니다."를 출력하세요.
+//        9.사용자가 입력한 세 정수가 모두 짝수인 경우 "모두 짝수입니다." 모두 홀수인 경우 "모두 홀수입니다."
+//         그 외의 경우 "짝수 : xxx개, 홀수 : xxx개 입니다."를 출력하세요.
 //        int num1 = sc.nextInt();
 //        int num2 = sc.nextInt();
 //        int num3 = sc.nextInt();

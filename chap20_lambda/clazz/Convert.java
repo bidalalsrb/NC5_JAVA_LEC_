@@ -1,2 +1,5 @@
-package chap20_lambda.clazz;public interface Convert {
+package chap20_lambda.clazz;
+
+public interface Convert {
+    int conv(int a, char c);
 }
