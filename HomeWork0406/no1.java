@@ -16,7 +16,7 @@ public class no1 {
             strList.add(sc.nextLine());
         }
         Stream<String> strStream = strList.stream();
-        strStream.filter(num -> num.length()>=5 ).forEach(num-> System.out.println(num));
-        
+        strStream.filter(num -> num.length() >= 5).forEach(num -> System.out.println(num));
+
     }
 }

@@ -37,14 +37,14 @@ public class no2 {
 //
         Stream<HistoricPerson> person = historicPeople.stream()
                 .map(ac -> ac.getPersonInfo(acStr))
-                .filter(a -> !a.getAchievement().equals(""));
+                .filter(a -> !a.getAchievement().equals(null));
         person.forEach(a -> System.out.println(a));
 
 //        System.out.println("3번ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ");
         System.out.println("이 를 입력해용");
         String LeeStr = sc.nextLine();
 
-        //2번에서 만든 List를 스트림으로 변환하고 성이 '이'씨인 인물만 갖는 스트림을 만들고 출력하세요.
+        //2번에서 만든 List를 스트림으로 변환하고 성이 '이'씨인 인물만 갖는 스트림을 만들고 출력하세요.111
         Stream<HistoricPerson> LeePerson = historicPeople.stream().filter(a -> a.getName().charAt(0) == LeeStr.charAt(0));
         LeePerson.forEach(a -> System.out.println(a));
 
@@ -62,6 +62,8 @@ public class no2 {
         //2번에서 만든 List를 스트림으로 변환하고 성이 두자 이상인 인물의 정보를 스트림으로 만들어서 출력하세요.(을지문덕, 제갈공명)
         Stream<HistoricPerson> twinPerson = historicPeople.stream().filter(a -> a.getName().length() == 4);
         twinPerson.forEach(a -> System.out.println(a));
+
+
 
     }
 }
