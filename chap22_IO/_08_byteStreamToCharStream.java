@@ -13,14 +13,16 @@ public class _08_byteStreamToCharStream {
             // 바이트스트림 -> 문자스트림으로 변환
             Writer writer = new OutputStreamWriter(os, "UTF-8");
             writer.write(str);
+
+
             writer.flush();
             writer.close();
         } catch (FileNotFoundException fne) {
             throw new RuntimeException(fne);
         } catch (IOException ioe) {
             System.out.println(ioe.getMessage());
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
+        } catch (Exception ee) {
+            System.out.println(ee.getMessage());
         }
     }
     //InputStreamReader를 이용해서
